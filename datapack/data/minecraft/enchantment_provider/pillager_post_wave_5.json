@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:by_cost",
+    "enchantments": [
+        "minecraft:multishot",
+        "minecraft:quick_charge"
+    ],
+    "cost": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+            {
+                "data": 25,
+                "weight": 3
+            },
+            {
+                "data": 30,
+                "weight": 1
+            }
+        ]
+    }
+}

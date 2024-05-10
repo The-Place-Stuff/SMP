@@ -1,0 +1,26 @@
+{
+    "values": [
+        "minecraft:badlands",
+        "minecraft:basalt_deltas",
+        "minecraft:crimson_forest",
+        "minecraft:desert",
+        "minecraft:eroded_badlands",
+        "minecraft:nether_wastes",
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:soul_sand_valley",
+        "minecraft:warped_forest",
+        "minecraft:windswept_savanna",
+        "minecraft:wooded_badlands",
+        "minecraft:snowy_plains",
+        "minecraft:ice_spikes",
+        "minecraft:frozen_ocean",
+        "minecraft:snowy_taiga",
+        "minecraft:frozen_river",
+        "minecraft:snowy_beach",
+        "minecraft:frozen_peaks",
+        "minecraft:jagged_peaks",
+        "minecraft:snowy_slopes",
+        "minecraft:grove"
+    ]
+}
