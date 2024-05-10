@@ -9,14 +9,21 @@
 * Is now marked as a treasure enchantment, and can no longer be obtained through trading, enchanting and chest loot.
 * Can **only** be obtained from raids.
 
-### Raids
-* Pillagers after wave 5 have a chance to spawn with multishot crossbows.
-* Illager mobs (while a raid is active) can now drop the following enchanted books:
+### Raids Changes (1.21+)
+* Pillagers after the fifth wave can spawn with multishot crossbows.
+* Pillagers can drop enchanted books with any of the following enchantments:
+    * Quick Charge
+    * Multishot
+    * Unbreaking
+* Vindicators can drop enchanted books with any of the following enchantments:
     * Sharpness
     * Smite
     * Looting
-    * Quick Charge
-    * Multishot
+    * Unbreaking
+* Evokers can drop enchanted books with any of the following enchantments:
+    * Protection
+    * Projectile Protection
+    * Fire Protection
     * Unbreaking
 * The chances of obtaining an enchanted book increase with looting.
 
