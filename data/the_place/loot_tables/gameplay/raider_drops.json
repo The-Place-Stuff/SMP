@@ -25,10 +25,10 @@
                             "options": [
                                 "minecraft:sharpness",
                                 "minecraft:smite",
-                                "minecraft:unbreaking",
-                                "minecraft:piercing",
                                 "minecraft:looting",
-                                "minecraft:multishot"
+                                "minecraft:quick_charge",
+                                "minecraft:multishot",
+                                "minecraft:unbreaking"
                             ]
                         }
                     ]
