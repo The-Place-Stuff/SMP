@@ -14,7 +14,7 @@
                             "enchantment": "minecraft:looting",
                             "chance": {
                                 "type": "minecraft:linear",
-                                "base": 0.11,
+                                "base": 0.2,
                                 "per_level_above_first": 0.02
                             }
                         }
