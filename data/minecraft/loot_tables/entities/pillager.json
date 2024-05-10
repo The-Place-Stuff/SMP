@@ -14,12 +14,15 @@
                             "has_raid": true
                         }
                     }
+                },
+                {
+                    "condition": "minecraft:killed_by_player"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "the_place:gameplay/raider_drops"
+                    "value": "the_place:gameplay/raid/pillager"
                 }
             ]
         },
