@@ -6,7 +6,7 @@
 * Additional damage calculations have changed. (2.5 per level -> 2.0 per level)
 
 ### Multishot Enchantment (1.21+)
-* Is now marked as a treasure enchantment, and can no longer be obtained through trading, enchanting and mob loot.
+* Is now marked as a treasure enchantment, and can no longer be obtained through trading, enchanting and chest loot.
 * Can **only** be obtained from raids.
 
 ### Raids
