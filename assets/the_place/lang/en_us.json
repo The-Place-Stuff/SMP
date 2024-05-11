@@ -6,5 +6,7 @@
     "advancement.the_place.goat": "Greatest of All Time",
     "advancement.the_place.goat.desc": "Collect all Goat Horn instruments",
     "advancement.the_place.rainbow_collection": "Rainbow Collection",
-    "advancement.the_place.rainbow_collection.desc": "Place down all the colors of Wool"
+    "advancement.the_place.rainbow_collection.desc": "Place down all the colors of Wool",
+
+    "item.the_place.bastion_key": "Bastion Key"
 }
