@@ -10,7 +10,7 @@ const dataPackDefinition = {
 const resourcePackDefinition = {
     pack: {
         description: 'Assets for The Place SMP',
-        pack_format: 32
+        pack_format: 33
     }
 }
 compile()
@@ -19,12 +19,22 @@ function compile() {
     const settings = JSON.parse(fs.readFileSync('./settings.json'))
 
     if (typeof settings.dataOutput == 'undefined') {
-        console.warn('Failed to find settings.json')
+        console.warn('Failed to find element dataOutput in settings.json')
     }
-    compileDataPack(`${settings.dataOutput}/the_place_smp`)
+    else compileDataPack(`${settings.dataOutput}/the_place_smp`)
+
+    if (typeof settings.resourceOutput == 'undefined') {
+        console.warn('Failed to find element resourceOutput in settings.json')
+    }
+    else compileResourcePack(`${settings.resourceOutput}/the_place_smp`)
 }
 
 function compileDataPack(packFolder) {
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(dataPackDefinition, null, 4))
     fse.copy('./data', `${packFolder}/data`)
+}
+
+function compileResourcePack(packFolder) {
+    fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(resourcePackDefinition, null, 4))
+    fse.copy('./assets', `${packFolder}/assets`)
 }
