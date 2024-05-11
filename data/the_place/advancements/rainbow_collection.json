@@ -1,0 +1,211 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:red_wool",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancement.the_place.rainbow_collection"
+        },
+        "description": {
+            "translate": "advancement.the_place.rainbow_collection.desc"
+        }
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "white_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:white_wool"
+                    }
+                ]
+            }
+        },
+        "light_gray_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:light_gray_wool"
+                    }
+                ]
+            }
+        },
+        "gray_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:gray_wool"
+                    }
+                ]
+            }
+        },
+        "black_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:black_wool"
+                    }
+                ]
+            }
+        },
+        "brown_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:brown_wool"
+                    }
+                ]
+            }
+        },
+        "red_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:red_wool"
+                    }
+                ]
+            }
+        },
+        "orange_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:orange_wool"
+                    }
+                ]
+            }
+        },
+        "yellow_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:yellow_wool"
+                    }
+                ]
+            }
+        },
+        "lime_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:lime_wool"
+                    }
+                ]
+            }
+        },
+        "green_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:green_wool"
+                    }
+                ]
+            }
+        },
+        "cyan_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:cyan_wool"
+                    }
+                ]
+            }
+        },
+        "light_blue_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:light_blue_wool"
+                    }
+                ]
+            }
+        },
+        "blue_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:blue_wool"
+                    }
+                ]
+            }
+        },
+        "purple_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:purple_wool"
+                    }
+                ]
+            }
+        },
+        "magenta_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:magenta_wool"
+                    }
+                ]
+            }
+        },
+        "pink_wool": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:pink_wool"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["white_wool"],
+        ["light_gray_wool"],
+        ["gray_wool"],
+        ["black_wool"],
+        ["brown_wool"],
+        ["red_wool"],
+        ["orange_wool"],
+        ["yellow_wool"],
+        ["lime_wool"],
+        ["green_wool"],
+        ["cyan_wool"],
+        ["light_blue_wool"],
+        ["blue_wool"],
+        ["purple_wool"],
+        ["magenta_wool"],
+        ["pink_wool"]
+    ]
+}

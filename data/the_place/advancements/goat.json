@@ -1,0 +1,138 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:goat_horn",
+            "count": 1,
+            "components": {
+                "minecraft:instrument": "minecraft:ponder_goat_horn"
+            }
+        },
+        "title": {
+            "translate": "advancement.the_place.goat"
+        },
+        "description": {
+            "translate": "advancement.the_place.goat.desc"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:husbandry/ride_a_boat_with_a_goat",
+    "criteria": {
+        "ponder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:ponder_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "sing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:sing_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "seek": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:seek_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "feel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:feel_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "admire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:admire_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "call": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:call_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "yearn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:yearn_goat_horn"
+                        }
+                    }
+                ]
+            }
+        },
+        "dream": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn",
+                        "components": {
+                            "minecraft:instrument": "minecraft:dream_goat_horn"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["ponder"],
+        ["sing"],
+        ["seek"],
+        ["feel"],
+        ["admire"],
+        ["call"],
+        ["yearn"],
+        ["dream"]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

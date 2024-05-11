@@ -27,3 +27,11 @@
     * Unbreaking
 * The chances of obtaining an enchanted book increase with looting.
 
+### New Advancements
+* Full Playlist (1.18+)
+* Rainbow Collection (1.18+)
+* Below Zero (1.19+)
+* Greatest of All Time (1.19+)
+
+
+
