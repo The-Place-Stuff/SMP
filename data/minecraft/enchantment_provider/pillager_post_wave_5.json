@@ -1,8 +1,5 @@
 {
-    "type": "minecraft:by_cost",
-    "enchantments": [
-        "minecraft:multishot",
-        "minecraft:quick_charge"
-    ],
-    "cost": 50
+    "type": "minecraft:single",
+    "enchantment": "minecraft:multishot",
+    "level": 1
 }
