@@ -1,5 +1,4 @@
-const fs = require('fs')
-const fse = require('fs-extra')
+const fs = require('fs-extra')
 
 const dataPackDefinition = {
     pack: {
@@ -31,10 +30,10 @@ function compile() {
 
 function compileDataPack(packFolder) {
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(dataPackDefinition, null, 4))
-    fse.copy('./data', `${packFolder}/data`)
+    fs.copy('./data', `${packFolder}/data`)
 }
 
 function compileResourcePack(packFolder) {
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(resourcePackDefinition, null, 4))
-    fse.copy('./assets', `${packFolder}/assets`)
+    fs.copy('./assets', `${packFolder}/assets`)
 }
