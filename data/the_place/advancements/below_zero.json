@@ -18,11 +18,16 @@
             "conditions": {
                 "player": [
                     {
-                        "condition": "minecraft:location_check",
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
                         "predicate": {
-                            "y": {
-                                "min": -64,
-                                "max": -8
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "min": -64,
+                                        "max": -8
+                                    }
+                                }
                             }
                         }
                     }
