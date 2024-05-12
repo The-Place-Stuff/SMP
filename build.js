@@ -30,10 +30,14 @@ function compile() {
 
 function compileDataPack(packFolder) {
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(dataPackDefinition, null, 4))
-    fs.copy('./data', `${packFolder}/data`)
+    fs.copy('./data', `${packFolder}/data`, {
+        overwrite: true
+    })
 }
 
 function compileResourcePack(packFolder) {
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(resourcePackDefinition, null, 4))
-    fs.copy('./assets', `${packFolder}/assets`)
+    fs.copy('./assets', `${packFolder}/assets`, {
+        overwrite: true
+    })
 }
