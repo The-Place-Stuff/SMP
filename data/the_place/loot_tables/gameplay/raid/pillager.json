@@ -14,8 +14,8 @@
                             "enchantment": "minecraft:looting",
                             "chance": {
                                 "type": "minecraft:linear",
-                                "base": 0.2,
-                                "per_level_above_first": 0.02
+                                "base": 0.12,
+                                "per_level_above_first": 0.01
                             }
                         }
                     ],
@@ -24,6 +24,7 @@
                             "function": "minecraft:enchant_randomly",
                             "options": [
                                 "minecraft:quick_charge",
+                                "minecraft:piercing",
                                 "minecraft:multishot",
                                 "minecraft:unbreaking"
                             ]
