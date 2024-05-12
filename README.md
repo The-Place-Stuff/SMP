@@ -46,5 +46,13 @@ Smithing Templates of any kind (including Netherite Upgrade) require the followi
 * 1 Smithing Template
 * 7 of the respective template's duplication material
 
+## Reeling Enchantment (1.21+)
+Reeling is a new enchantment that is applied onto Fishing Rods
+* Increases the amount of fish given one is reeled in.
+* The max level is 2.
+* Incompatible with Luck of the Sea.
 
+## New Fishing Loot (1.21+)
+* Enchanted books in Trial Chambers can have Wind Burst.
+* Enchanted books in Ancient Cities can have Soul Speed.
 

@@ -1,0 +1,19 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.the_place.reeling"
+    },
+    "exclusive_set": "#the_place:exclusive_set/fishing",
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "max_level": 2,
+    "slots": ["mainhand"],
+    "supported_items": "#minecraft:enchantable/fishing",
+    "weight": 2
+}
