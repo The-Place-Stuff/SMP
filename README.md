@@ -30,7 +30,7 @@
 ### Bastion Remnant Changes (1.21+)
 * Bastions contain Vaults.
 * Vaults in Bastions can be opened with Bastion Keys, with their loot consisting of mostly unique items such as the Netherite Upgrade, Snout Armor Trim, and Soul Speed Enchanted Books.
-* Piglin Brutes drop Bastion Keys, and will now slowly respawn in the structure.
+* Piglin Brutes drop Bastion Keys, and slowly respawn in the structure.
 * Chests can be still be found, however they will contain less important items.
 
 ### New Advancements
