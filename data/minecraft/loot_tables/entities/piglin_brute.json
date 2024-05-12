@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trial_key",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "the_place:bastion_key"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:entities/piglin_brute"
+}
