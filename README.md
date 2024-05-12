@@ -27,11 +27,23 @@
     * Unbreaking
 * The chances of obtaining an enchanted book increase with looting.
 
+### Bastion Remnant Changes (1.21+)
+* Bastions contain Vaults.
+* Vaults in Bastions can be opened with Bastion Keys, with their loot consisting of mostly unique items such as the Netherite Upgrade, Snout Armor Trim, and Soul Speed Enchanted Books.
+* Piglin Brutes drop Bastion Keys, and will now slowly respawn in the structure.
+* Chests can be still be found, however they will contain less important items.
+
 ### New Advancements
 * Full Playlist (1.18+)
 * Rainbow Collection (1.18+)
 * Below Zero (1.19+)
 * Greatest of All Time (1.19+)
+
+### Cheaper Smithing Templates (1.20+)
+Smithing Templates of any kind (including Netherite Upgrade) require the following items to be duplicated:
+* 1 Diamond
+* 1 Smithing Template
+* 7 of the respective template's duplication material
 
 
 
