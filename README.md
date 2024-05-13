@@ -54,5 +54,5 @@ Reeling is a new enchantment that is applied onto Fishing Rods
 
 ## New Fishing Loot (1.21+)
 * Enchanted books in Trial Chambers can have Wind Burst.
-* Enchanted books in Ancient Cities can have Soul Speed.
+* Enchanted books in Ancient Cities can have Swift Sneak.
 
