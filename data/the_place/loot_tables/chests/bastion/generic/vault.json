@@ -1,4 +1,4 @@
 {
     "type": "minecraft:chest",
-    "random_sequence": "the_place:chests/bastion/housing_units/vault"
+    "random_sequence": "the_place:chests/bastion/generic/vault"
 }
