@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:saddle",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "minecraft:soul_speed"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "function": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "options": "#minecraft:on_random_loot"
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0.5,
+                                "max": 1.0
+                            },
+                            "add": false
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ancient_debris",
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "random_sequence": "the_place:chests/bastion/hoglin_stables/rare"
+}

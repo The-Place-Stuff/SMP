@@ -1,4 +1,62 @@
 {
     "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "the_place:chests/bastion/bridge/common"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "the_place:chests/bastion/bridge/common",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "the_place:chests/bastion/bridge/rare",
+                    "weight": 9
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "the_place:chests/bastion/bridge/unique"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lodestone"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "the_place:chests/bastion/generic/upgrade_template"
+                }
+            ]
+        }
+    ],
     "random_sequence": "the_place:chests/bastion/bridge/vault"
 }
