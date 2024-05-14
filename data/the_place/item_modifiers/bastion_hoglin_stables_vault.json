@@ -1,0 +1,18 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:block_entity_data": {
+            "id": "minecraft:vault",
+            "config": {
+                "loot_table": "the_place:chests/bastion/hoglin_stables/vault",
+                "key_item": {
+                    "id": "minecraft:trial_key",
+                    "components": {
+                        "minecraft:item_name": "{translate: item.the_place.bastion_key}",
+                        "minecraft:custom_model_data": 1
+                    }
+                }
+            }
+        }
+    }
+}
