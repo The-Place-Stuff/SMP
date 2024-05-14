@@ -11,23 +11,8 @@
                     "amount": -1
                 },
                 "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.02
-                        },
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "flags": {
-                                    "is_on_ground": true
-                                }
-                            }
-                        }
-                    ]
-                    
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
                 }
             }
         ]
@@ -43,6 +28,6 @@
     },
     "max_level": 1,
     "slots": ["armor"],
-    "supported_items": "#minecraft:enchantable/armor",
+    "supported_items": "#the_place:enchantable/voyage",
     "weight": 2
 }
