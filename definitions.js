@@ -23,7 +23,7 @@ function createPack(output, type) {
     }
     fs.writeFileSync(`${output}/pack.mcmeta`, JSON.stringify(type == 'assets' ? resourcePackDefinition : dataPackDefinition, null, 4))
     fs.removeSync(`${output}/${type}`)
-    fs.copySync('./data', `${output}/${type}`, {
+    fs.copySync(`./${type}`, `${output}/${type}`, {
         overwrite: true
     })
 }
