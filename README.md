@@ -47,10 +47,16 @@ Smithing Templates of any kind (including Netherite Upgrade) require the followi
 * 7 of the respective template's duplication material
 
 ## Reeling Enchantment (1.21+)
-Reeling is a new enchantment that is applied onto Fishing Rods
-* Increases the amount of fish given one is reeled in.
+* Applied onto Fishing Rods.
 * The max level is 2.
+* Increases the amount of fish given when one is reeled in.
 * Incompatible with Luck of the Sea.
+
+## Voyage Enchantment (1.21+)
+* Applied onto armor and Elytra.
+* Slowly repairs pieces of equipment with the enchantment when travelling the world.
+* Is a treasure enchantment, but can be found in chests or fishing, similar to Frost Walker and Mending.
+* Incompatible with Mending.
 
 ## New Fishing Loot (1.21+)
 * Enchanted books in Trial Chambers can have Wind Burst.
