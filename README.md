@@ -52,7 +52,7 @@ Smithing Templates of any kind (including Netherite Upgrade) require the followi
 * Increases the amount of fish given when one is reeled in.
 * Incompatible with Luck of the Sea.
 
-## Voyage Enchantment (1.21+)
+## Voyager Enchantment (1.21+)
 * Applied onto armor and Elytra.
 * Slowly repairs pieces of equipment with the enchantment when travelling the world.
 * Is a treasure enchantment, but can be found in chests or fishing, similar to Frost Walker and Mending.

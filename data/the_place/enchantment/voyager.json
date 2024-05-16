@@ -1,7 +1,7 @@
 {
     "anvil_cost": 4,
     "description": {
-        "translate": "enchantment.the_place.voyage"
+        "translate": "enchantment.the_place.voyager"
     },
     "effects": {
         "minecraft:location_changed": [
@@ -28,6 +28,6 @@
     },
     "max_level": 1,
     "slots": ["armor"],
-    "supported_items": "#the_place:enchantable/voyage",
+    "supported_items": "#the_place:enchantable/voyager",
     "weight": 2
 }
