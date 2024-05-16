@@ -1,0 +1,33 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.the_place.voyage"
+    },
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:damage_item",
+                    "amount": -1
+                },
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.01
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#the_place:exclusive_set/armor_repairing",
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": ["armor"],
+    "supported_items": "#the_place:enchantable/voyage",
+    "weight": 2
+}
