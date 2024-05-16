@@ -29,6 +29,9 @@ function compile() {
 }
 
 function compileDataPack(packFolder) {
+    if (!fs.existsSync(packFolder)) {
+        fs.mkdirSync(packFolder)
+    }
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(dataPackDefinition, null, 4))
     fs.removeSync(`${packFolder}/data`)
     fs.copySync('./data', `${packFolder}/data`, {
@@ -37,6 +40,9 @@ function compileDataPack(packFolder) {
 }
 
 function compileResourcePack(packFolder) {
+    if (!fs.existsSync(packFolder)) {
+        fs.mkdirSync(packFolder)
+    }
     fs.writeFileSync(`${packFolder}/pack.mcmeta`, JSON.stringify(resourcePackDefinition, null, 4))
     fs.removeSync(`${packFolder}/assets`)
     fs.copySync('./assets', `${packFolder}/assets`, {
