@@ -37,8 +37,10 @@
 ## New Advancements
 * Full Playlist (1.18+)
 * Rainbow Collection (1.18+)
+* Iron Belly (1.18+)
 * Below Zero (1.19+)
 * Greatest of All Time (1.19+)
+* Camouflage (1.21+)
 
 ## Cheaper Smithing Templates (1.20+)
 Smithing Templates of any kind (including Netherite Upgrade) require the following items to be duplicated:

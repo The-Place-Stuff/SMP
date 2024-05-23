@@ -1,10 +1,14 @@
 {
     "advancement.the_place.below_zero": "Below Zero",
     "advancement.the_place.below_zero.desc": "Stumble into the Deepslate layer",
+    "advancement.the_place.camouflage": "Camouflage",
+    "advancement.the_place.camouflage.desc": "Kill a hostile monster while wearing the same type of Mob Head.",
     "advancement.the_place.full_playlist": "Full Playlist",
     "advancement.the_place.full_playlist.desc": "Listen to every Music Disc",
     "advancement.the_place.goat": "Greatest of All Time",
     "advancement.the_place.goat.desc": "Collect all Goat Horn instruments",
+    "advancement.the_place.iron_belly": "Iron Belly",
+    "advancement.the_place.iron_belly.desc": "Stop starvation using Rotten Flesh.",
     "advancement.the_place.rainbow_collection": "Rainbow Collection",
     "advancement.the_place.rainbow_collection.desc": "Place down all the colors of Wool",
 

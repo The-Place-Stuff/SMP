@@ -1,0 +1,1 @@
+scoreboard objectives add food_points food

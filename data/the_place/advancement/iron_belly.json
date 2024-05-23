@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rotten_flesh",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancement.the_place.iron_belly"
+        },
+        "description": {
+            "translate": "advancement.the_place.iron_belly.desc"
+        }
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "eat_rotten_flesh_while_starving": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "food_points": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": "minecraft:rotten_flesh"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["eat_rotten_flesh_while_starving"]
+    ]
+}
