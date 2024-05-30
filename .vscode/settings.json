@@ -1,0 +1,11 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/data/*/advancement/*.json",
+                "/data/*/advancement/**/*.json"
+            ],
+            "url": "https://raw.githubusercontent.com/bridge-core/editor-packages/feat/je-support/packages/minecraftJava/schema/advancement/main.json"
+        }
+    ]
+}

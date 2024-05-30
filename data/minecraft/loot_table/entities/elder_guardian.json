@@ -176,13 +176,14 @@
                 },
                 {
                     "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                      "type": "minecraft:linear",
+                      "base": 0.035,
+                      "per_level_above_first": 0.01
+                    },
                     "enchantment": "minecraft:looting",
-                    "chance": {
-                        "type": "minecraft:linear",
-                        "base": 0.035,
-                        "per_level_above_first": 0.01
-                    }
-                }
+                    "unenchanted_chance": 0.025
+                  }
             ]
         },
         {
@@ -191,11 +192,12 @@
             "entries": [
                 {
                     "type": "minecraft:empty",
-                    "weight": 3
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:tide_armor_trim_smithing_template"
+                    "name": "minecraft:tide_armor_trim_smithing_template",
+                    "weight": 1
                 }
             ]
         }
