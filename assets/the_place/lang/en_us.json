@@ -15,5 +15,14 @@
     "enchantment.the_place.reeling": "Reeling",
     "enchantment.the_place.voyager": "Voyager",
 
-    "item.the_place.bastion_key": "Bastion Key"
+    "item.the_place.bastion_key": "Bastion Key",
+
+    "painting.the_place.destination.title": "Destination",
+    "painting.the_place.destination.author": "ExDrill",
+    "painting.the_place.reflection.title": "Reflection",
+    "painting.the_place.reflection.author": "ExDrill",
+    "painting.the_place.smug.title": "Smug",
+    "painting.the_place.smug.author": "ExDrill",
+    "painting.the_place.the_ball.title": "The Ball",
+    "painting.the_place.the_ball.author": "ExDrill"
 }

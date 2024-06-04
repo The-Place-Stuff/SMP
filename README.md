@@ -64,5 +64,11 @@ Smithing Templates of any kind (including Netherite Upgrade) require the followi
 * Enchanted books in Trial Chambers can have Wind Burst.
 * Enchanted books in Ancient Cities can have Swift Sneak.
 
+## New Painting Variants (1.21+)
+* Destination (1x2)
+* Reflection (2x2)
+* Smug (1x1)
+* The Ball (4x4)
+
 ## Bundles (1.18+)
 * Are crafted with leather instead of rabbit hide.
