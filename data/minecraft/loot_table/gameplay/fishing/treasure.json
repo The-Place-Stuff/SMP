@@ -54,62 +54,13 @@
                     ]
                 },
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
                         {
-                            "type": "minecraft:item",
-                            "name": "minecraft:book",
-                            "functions": [
-                                {
-                                    "function": "minecraft:enchant_randomly",
-                                    "options": "minecraft:swift_sneak"
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "structures": "minecraft:ancient_city"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "name": "minecraft:book",
-                            "functions": [
-                                {
-                                    "function": "minecraft:enchant_randomly",
-                                    "options": "minecraft:wind_burst"
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "structures": "minecraft:trial_chambers"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "name": "minecraft:book",
-                            "functions": [
-                                {
-                                    "function": "minecraft:enchant_with_levels",
-                                    "levels": 30,
-                                    "options": "#minecraft:on_random_loot"
-                                }
-                            ]
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30,
+                            "options": "#minecraft:on_random_loot"
                         }
                     ]
                 },

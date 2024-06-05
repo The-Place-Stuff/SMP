@@ -60,10 +60,6 @@ Smithing Templates of any kind (including Netherite Upgrade) require the followi
 * Is a treasure enchantment, but can be found in chests or fishing, similar to Frost Walker and Mending.
 * Incompatible with Mending.
 
-## New Fishing Loot (1.21+)
-* Enchanted books in Trial Chambers can have Wind Burst.
-* Enchanted books in Ancient Cities can have Swift Sneak.
-
 ## New Painting Variants (1.21+)
 * Destination (1x2)
 * Reflection (2x2)
