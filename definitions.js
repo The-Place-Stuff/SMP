@@ -3,7 +3,7 @@ const fs = require('fs-extra')
 const dataPackDefinition = {
     pack: {
         description: 'Data for The Place SMP',
-        pack_format: 45
+        pack_format: 48
     }
 }
 const resourcePackDefinition = {
