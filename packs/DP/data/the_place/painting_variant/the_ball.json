@@ -1,0 +1,11 @@
+{
+    "title": {
+        "translate": "painting.the_place.the_ball.title"
+    },
+    "author": {
+        "translate": "painting.the_place.the_ball.author"
+    },
+    "asset_id": "the_place:the_ball",
+    "width": 4,
+    "height": 4
+}

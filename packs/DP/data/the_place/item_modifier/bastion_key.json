@@ -1,0 +1,9 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:item_name": {
+            "translate": "item.the_place.bastion_key"
+        },
+        "minecraft:item_model": "the_place:bastion_key"
+    }
+}

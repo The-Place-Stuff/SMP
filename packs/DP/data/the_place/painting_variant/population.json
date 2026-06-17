@@ -1,0 +1,11 @@
+{
+    "title": {
+        "translate": "painting.the_place.population.title"
+    },
+    "author": {
+        "translate": "painting.the_place.population.author"
+    },
+    "asset_id": "the_place:population",
+    "width": 1,
+    "height": 2
+}

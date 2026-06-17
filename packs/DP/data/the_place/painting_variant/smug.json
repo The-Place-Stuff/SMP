@@ -1,0 +1,11 @@
+{
+    "title": {
+        "translate": "painting.the_place.smug.title"
+    },
+    "author": {
+        "translate": "painting.the_place.smug.author"
+    },
+    "asset_id": "the_place:smug",
+    "width": 1,
+    "height": 1
+}

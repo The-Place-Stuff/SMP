@@ -1,0 +1,34 @@
+{
+    "advancement.the_place.below_zero": "Below Zero",
+    "advancement.the_place.below_zero.desc": "Stumble into the Deepslate layer",
+    "advancement.the_place.camouflage": "Camouflage",
+    "advancement.the_place.camouflage.desc": "Kill a hostile monster while wearing the same type of Mob Head.",
+    "advancement.the_place.full_playlist": "Full Playlist",
+    "advancement.the_place.full_playlist.desc": "Listen to every Music Disc",
+    "advancement.the_place.goat": "Greatest of All Time",
+    "advancement.the_place.goat.desc": "Collect all Goat Horn instruments",
+    "advancement.the_place.iron_belly": "Iron Belly",
+    "advancement.the_place.iron_belly.desc": "Prevent starvation using Rotten Flesh.",
+    "advancement.the_place.rainbow_collection": "Rainbow Collection",
+    "advancement.the_place.rainbow_collection.desc": "Place down all the colors of Wool",
+
+    "enchantment.the_place.reeling": "Reeling",
+    "enchantment.the_place.voyager": "Voyager",
+
+    "item.the_place.bastion_key": "Bastion Key",
+
+    "painting.the_place.destination.title": "Destination",
+    "painting.the_place.destination.author": "ExDrill",
+    "painting.the_place.nogg.title": "Nogg",
+    "painting.the_place.nogg.author": "ExDrill",
+    "painting.the_place.population.title": "Population",
+    "painting.the_place.population.author": "ExDrill",
+    "painting.the_place.reflection.title": "Reflection",
+    "painting.the_place.reflection.author": "ExDrill",
+    "painting.the_place.sad.title": "Sad",
+    "painting.the_place.sad.author": "ExDrill",
+    "painting.the_place.smug.title": "Smug",
+    "painting.the_place.smug.author": "ExDrill",
+    "painting.the_place.the_ball.title": "The Ball",
+    "painting.the_place.the_ball.author": "ExDrill"
+}

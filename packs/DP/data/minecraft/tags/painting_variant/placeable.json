@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "the_place:destination",
+        "the_place:nogg",
+        "the_place:population",
+        "the_place:reflection",
+        "the_place:sad",
+        "the_place:smug",
+        "the_place:the_ball"
+    ]
+}

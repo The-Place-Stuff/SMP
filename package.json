@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "fs-extra": "^11.2.0",
-    "jszip": "^3.10.1"
-  }
-}

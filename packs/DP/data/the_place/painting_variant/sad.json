@@ -1,0 +1,11 @@
+{
+    "title": {
+        "translate": "painting.the_place.sad.title"
+    },
+    "author": {
+        "translate": "painting.the_place.sad.author"
+    },
+    "asset_id": "the_place:sad",
+    "width": 1,
+    "height": 1
+}

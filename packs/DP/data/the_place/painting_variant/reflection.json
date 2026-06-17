@@ -1,0 +1,11 @@
+{
+    "title": {
+        "translate": "painting.the_place.reflection.title"
+    },
+    "author": {
+        "translate": "painting.the_place.reflection.author"
+    },
+    "asset_id": "the_place:reflection",
+    "width": 2,
+    "height": 2
+}
